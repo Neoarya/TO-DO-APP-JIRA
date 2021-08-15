@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+           
+            <p id="F">Filters</p>
+            <p id="E">Edits</p>
+
+
+            <div class="filters">
+                <div class="filter">
+                    <div class="pink"></div>
+                </div>
+                <div class="filter">
+                    <div class="blue"></div>
+                </div>
+                <div class="filter">
+                    <div class="green"></div>
+                </div>
+                <div class="filter">
+                    <div class="black"></div>
+                </div>
+            </div>
+            <div class="vrtcl-line-1"></div>
+            <div class="action-buttons">
+                
+                <div class="add"><span class="material-icons">
+                        add_box
+                    </span></div>
+                <div class="delete"><span class="material-icons">
+                        delete
+                    </span></div>
+            </div>
+            <div class="vrtcl-line-2"></div>
+        </div>
+        <div class="grid">
+            <!-- <div class="ticket">
+                <div class="ticket-color pink"></div>
+                <div class="ticket-id">#nfK54</div>
+                <div class="actual-task">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, ad?</div>
+            </div> -->
+
+
+            <!-- <div class="modal">
+                <div class="task-section">
+                    <div class="task-inner-container" contenteditable="true"></div>
+                </div>
+                <div class="modal-priority-section">
+                    <div class="priority-inner-container">
+                        <div class="modal-priority pink"></div>
+                        <div class="modal-priority blue"></div>
+                        <div class="modal-priority green"></div>
+                        <div class="modal-priority black"></div>
+                    </div>
+                </div>
+            </div> -->
+
+
+        </div>
+    </div>
+
+    
+    <!-- this is a cdn link to generate short unique ids for tickets -->
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+
+    <script>  
+    let uid = new ShortUniqueId();
+    </script>
+
+   
+        
+
+    <script src="script.js"></script>
+
+    
+    
+
+   
+</body>
+
+</html>
